@@ -22,6 +22,7 @@ for result in range(1,len(arr)):
 
    if(arr[result] == 0):
        if (arr[result - 1] == -1):
+           
            arr1.append(0)
        else:
            continue
