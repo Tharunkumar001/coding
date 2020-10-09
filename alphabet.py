@@ -1,6 +1,6 @@
 #pattern for alphabet A
 
-"""def a():
+def a():
     for i in range(0, 2):
         print("*****")
         for j in range(0, 3):
@@ -20,10 +20,30 @@ def c():
         for j in range(0, 4):
             print("*")
     print(" " + "****")
-c()"""
+c()
 
-for i in range(0,1):
+def d():
+    for i in range(0, 1):
+        print("******")
+        for j in range(0, 4):
+            print(" " + "*" + "   " + "*")
     print("******")
-    for j in range(0,4):
-            print(" "+ "*" + "   " + "*")
-print("******")
+d()
+
+def e():
+    for i in range(0, 2):
+        print("******")
+        for j in range(0, 3):
+            print("*")
+    print("******")
+e()
+
+def e():
+    for i in range(0, 2):
+        print("******")
+        for j in range(0, 3):
+            print("*")
+e()
+
+
+
